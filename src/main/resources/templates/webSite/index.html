@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MaintMan</title>
+    <link th:href="@{/styles/css/main.css}" rel="stylesheet" />
+</head>
+<body>
+<section>
+    <div class="main">
+        <header>
+            <h1>MaintMan introduce CMMS</h1>
+        </header>
+        <div class="main-column">
+            <form action="mailto:twój_adres_poczty@domena" method="post" enctype="text/plain">
+                <div class="form">
+                    <!-- Podstawowe pole tekstowe -->
+                    <p>
+                        Zaloguj się do MaintMan aby rozpocząć pracę z aplikacją
+                    </p>
+                    Login <input name="login" style="margin-bottom:5px;"><br>
+                    Hasło <input name="password">
+
+                    <br><br><br>
+                    <!-- Przycisk WYŚLIJ -->
+                    <input type="submit" value="Login">
+                    <!-- Przycisk WYCZYŚĆ DANE -->
+                    <input type="reset" value="Wyczyść dane">
+                </div>
+            </form>
+        </div>
+    </div>
+
+</section>
+</body>
+</html>
